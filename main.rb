@@ -1,6 +1,6 @@
 require './lib/scraper'
 
-url = 'https://lta.reuters.com/articulo/salud-coronavirus-mexico-datos-idLTAKBN23301D?taid=5ecdc9aa9e7b1b0001fda890&utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter'
+url = 'https://www.poderjudicialvirtual.com/df-trejo-bouquet-jacqueline-del-carmen--nueva-wal-mart-de-mexico-s-de-r-l-de-c-v-y-servicios-adminis-26/2020'
 scraper = Judicial::Scraper.new(url)
 scraper.scraper
 
