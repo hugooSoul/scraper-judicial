@@ -41,7 +41,8 @@ module Judicial
                 summary: summary,
                 notification: notification
             ]
-    
+            
+            print document_info
             return document_info
         end
     end
